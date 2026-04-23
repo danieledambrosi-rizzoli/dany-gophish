@@ -40,10 +40,10 @@ type Config struct {
 }
 
 // Version contains the current gophish version
-var Version = ""
+var Version = "sudo-wodoo-0.1"
 
 // ServerName is the server type that is returned in the transparency response.
-const ServerName = "gophish"
+const ServerName = "IGNORE"
 
 // LoadConfig loads the configuration from the specified filepath
 func LoadConfig(filepath string) (*Config, error) {
